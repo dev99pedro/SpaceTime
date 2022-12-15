@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import { HashRouter, Routes, Route} from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Home from '../src/components/Home/Home'
 import Moon from './components/Destination/PagePlanets/Moon/Moon';
 import Destination from './components/Destination/Destination';
@@ -19,6 +19,7 @@ function App() {
     <div className="App">
       <HashRouter>
         <Routes>
+          <Route path="/SpaceTravel" element={<Home />} />
           <Route path="/titan" element={<Titan />} />
           <Route path="/europa" element={<Europa />} />
           <Route path="/mars" element={<Mars />} />
