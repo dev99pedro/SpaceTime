@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from '../src/components/Home/Home'
 import Moon from './components/Destination/PagePlanets/Moon/Moon';
 import Destination from './components/Destination/Destination';
@@ -17,7 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter basename={window.location.pathname || ''>
+      <BrowserRouter basename={window.location.pathname || ''}>
+        <Route exact path="/" component={Index} />
         <Routes>
           <Route exact path="/" component={Index} />
           <Route path="/titan" element={<Titan />} />
@@ -29,8 +30,7 @@ function App() {
           <Route path="/crew" element={<CrewPage />} />
           <Route path="/tecnhology" element={<TecnhologyPage />} />
         </Routes>
-      </HashRouter>
-
+      </BrowserRouter>
     </div>
   );
 }
