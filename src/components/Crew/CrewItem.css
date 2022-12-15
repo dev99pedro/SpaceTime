@@ -1,0 +1,86 @@
+
+
+.card-box-crew {
+    margin-top: 40px;
+}
+
+.crew-section {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    background: #F5EEDC;
+    width: 90%;
+    min-height: 350px;
+    max-height: 350px;
+    margin: auto;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+.link-card-box-crew {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card-box {
+    transition: background-color 573ms ease-out;
+    cursor: pointer;
+}
+
+.card-box:hover {
+    background-color: rgba(64, 59, 59, 1);
+}
+
+
+.card-box-crew .card-img-crew {
+    display: flex;
+    justify-content: center;
+}
+
+.card-box-crew .card-img-crew .img-person {
+    max-width: 240px;
+    min-width: 240px;
+    height: auto;
+}
+
+.card-text-title-crew {
+    font-size: 2vw;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.card-text-description-crew {
+    width: 80%;
+
+    padding-left: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-box-crew .card-img-crew>img {
+    max-width: 50%;
+    height: auto;
+
+}
+
+.card-text-crew {
+    width: 100%;
+    padding: 20px;
+}
+
+.card-box-crew .card-text-crew>h1 {
+    text-align: left;
+    font-weight: 900;
+    color: #000000;
+    padding-left: 38px;
+}
+
+.card-box-crew .card-text-crew>p {
+    font-weight: 400;
+    padding-top: 15px;
+    text-align: left;
+    color: #000000;
+    font-size: 1.1vw;
+}

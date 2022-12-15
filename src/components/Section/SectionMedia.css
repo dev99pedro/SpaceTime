@@ -1,0 +1,40 @@
+@media (max-width: 700px) {
+
+    .section {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-textos {
+        width: 100%;
+        padding-left: 0;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .section-textos h1 {
+        font-size: 30px;
+    }
+
+    .section-textos p {
+        line-height: 26px;
+        font-size: 15px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .space-texto > h2 {
+        font-size: 100px;
+    }
+
+    .section-explore {
+        margin-top: 80px;
+        width: 200px;
+        height: 200px;
+    }
+
+    
+}

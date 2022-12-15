@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-between;
+
+}
+
+.header-lista {
+    display: flex
+}
+
+.header-lista-links {
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+    gap: 9%;
+    background: rgba(255, 255, 255, 0.14);
+    height: 70px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.8px);
+    -webkit-backdrop-filter: blur(15.8px);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    width: 50vw;
+    padding-left: 10%;
+
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(1.4)
+}
+
+.header-lista-links li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+
+.link-header {
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    position: relative;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+li:after {
+    content: ""; 
+    position: absolute;
+    background-color: #ffffff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+
+}
+
+li:hover {
+    color: #ffffff;
+}
+
+li:hover:after {
+    width: 100%;
+}
+
+
+
+
+.traco-cinza {
+    width: 45%;
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+}
+
+.header-logo {
+    padding-left: 20px;
+}
+
+.hamburger {
+    display: none;
+}

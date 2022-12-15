@@ -1,0 +1,27 @@
+.cards {
+
+    padding-bottom: 40px;
+}
+
+
+
+.cards .title-cards>h1 {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    
+
+}
+
+
+.cards .cards-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+
+}

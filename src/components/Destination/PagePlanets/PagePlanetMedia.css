@@ -1,0 +1,42 @@
+@media (max-width: 800px) {
+    .dados-planet-page {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dados-planet-page .titulo-description-planet-page {
+        margin-left: 0;
+        backdrop-filter: unset;
+
+    }
+
+    .dados-planet-page .titulo-description-planet-page .name-planet {
+        text-align: center;
+        font-size: 120px;
+        position: unset;
+    }
+
+    .dados-planet-page .titulo-description-planet-page .description-planet {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .distance-title {
+        text-align: center;
+    }
+
+    .distance-subtitle,
+    .travel-subtitle {
+        text-align: center;
+    }
+
+    .distance-subtitle,
+    .travel-subtitle {
+        text-align: center;
+    }
+
+    .distance-subtitle,
+    .travel-subtitle {
+        text-align: center;
+    }
+}

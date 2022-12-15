@@ -1,0 +1,52 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.section-textos {
+    text-align: left;
+    padding-top: 120px;
+}
+
+.section-textos h1 {
+    font-size: 37.2px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+
+    
+}
+
+
+.space-texto {
+    font-size: 85px;
+    color: #ffffff;
+}
+
+.space-texto > h2 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 0;
+}
+
+.section-textos p {
+    margin-top: 40px;
+    width: 400px;
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.section-explore {
+    border-radius: 500px;
+    background-color: #ffffff;
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 170px;
+}

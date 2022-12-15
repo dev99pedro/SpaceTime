@@ -1,0 +1,11 @@
+.cardinho {
+    color: blue;
+    width: 82%;
+    height: 200px;
+    background-color: red;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,22 @@
+.tec {
+    padding-bottom: 100px;
+    background-color: #0d1325;
+}
+
+.tec .cards-tec {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tec-main-title {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.card-tec-space-port {
+    margin-left: 60px;
+}

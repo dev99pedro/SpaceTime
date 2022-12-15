@@ -1,0 +1,95 @@
+.cards-crew {
+    background-image: url('../img/crew//space-crew-background.jpg');
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+
+
+}
+
+
+
+
+.btn-crew {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 60px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 5px;
+
+}
+
+.teste {
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+.btn-crew>span {
+    position: relative;
+    z-index: 2;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.btn-crew:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #A38A00;
+    transition: all .35s;
+}
+
+.btn-crew:hover {
+    color: #fff;
+}
+
+.btn-crew:hover:after {
+    width: 100%;
+}
+
+
+
+
+/* .slick-prev {
+    position: relative;
+    top: 220px;
+    font-size: 9px;
+    width: 40x;
+    cursor: pointer;
+    z-index: 1;
+    margin-right: 100px;
+} */
+
+
+.slick-prev {
+    left: 0 !important;
+    z-index: 1 !important;
+}
+
+.slick-next {
+    right: 10px !important;
+    
+}
+/* .slick-dots {
+    display: none !important;
+}
+
+.slick-next {
+    display: none !important;
+} */

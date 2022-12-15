@@ -1,0 +1,56 @@
+.planets-cards-destination-box {
+    display: flex;
+    flex-direction: column;
+    min-height: 480px;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.planets-cards-destination-box:hover {
+    transform: scale(1.1);
+}
+
+.planets-cards-destination-box .card-img {
+    display: flex;
+    justify-content: center;
+}
+.sumir {
+    display: none;
+}
+
+.card-text-title {
+    font-size: 2vw;
+}
+
+.card-text-description {
+    font-size: 1vw;
+}
+
+.planets-cards-destination-box-card-img {
+    max-width: 80%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.planets-cards-destination-box-card-img-size {
+    max-width: 40%;
+}
+
+.planets-cards-destination-box .card-text {
+    text-align: center;
+    width: 80%;
+}
+
+.planets-cards-destination-box .card-text>h1 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.planets-cards-destination-box .card-text>p {
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+

@@ -1,0 +1,132 @@
+
+.planet-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../img/destination/monn_background.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 500px;
+    height: 80vh;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+
+}
+
+.link-botao {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.planet-card>img {
+    width: 180px;
+
+    animation: MoveUpDown 1s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 20px;
+    }
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 0.1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 0.1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+
+
+.planet-card .planet-card-text {
+    color: #ffffff;
+    padding: 20px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planet-card .planet-card-text .planet-card-text-description {
+    width: 80%;
+    line-height: 28px;
+    text-align: left;
+
+    font-size: 18px;
+
+}
+
+.planet-card .planet-card-button {
+    width: 200px;
+    height: 45px;
+    background-color: #4040ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.planet-card-text > h1 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.planet-card .planet-card-button a {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.planet-card-button:hover,
+.planet-card-button:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}

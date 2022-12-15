@@ -1,0 +1,27 @@
+.img-card-tec-page {
+   max-width: 20vw;
+   min-width: 20vw;
+   height: auto;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+}
+
+
+.card-tec-page {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    max-width: 25%;
+    background-color: #F5EFE6;
+    border-radius: 12px;
+  
+}
+
+
+
+.text-card-tec-page {
+    color: #000000;
+    padding: 15px;
+}

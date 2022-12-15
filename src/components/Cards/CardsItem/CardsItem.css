@@ -1,0 +1,68 @@
+.card-box {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-height: 550px;
+    max-height: 550px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    border-radius: 18px;
+    -webkit-box-shadow: -1px 1px 10px 11px rgba(0, 0, 0, 0.36);
+    box-shadow: -1px 1px 10px 11px rgba(0, 0, 0, 0.36);
+}
+
+
+.link-card-box {
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-box {
+    transition: background-color 573ms ease-out;
+    cursor: pointer;
+}
+
+.card-box:hover {
+    background-color: rgba(64, 59, 59, 1);
+}
+
+
+.card-box .card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text-title {
+    font-size: 2vw;
+}
+
+
+
+.card-box .card-img>img {
+    max-width: 80%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.card-box .card-text {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.card-box .card-text>h1 {
+    font-weight: bold;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.card-box .card-text>p {
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+

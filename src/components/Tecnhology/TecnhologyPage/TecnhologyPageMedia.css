@@ -1,0 +1,67 @@
+@media (max-width: 600px) {
+    .banner-principal {
+        width: 70%;
+    }
+
+    .banner-principal > p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .tec-page-cards {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .card-tec-page {
+        max-width: 60%;
+    }
+
+    .img-card-tec-page {
+        max-width: 60vw;
+        min-width: 60vw;
+    }
+
+    .text-card-tec-page > p {
+        font-size: 14px;
+    }
+    
+  
+
+    .text-card-tec-page > h2 {
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 1100px) {
+    .tec-page-cards {
+        gap: 16px;
+    }
+
+    .card-tec-page {
+     
+        justify-content: unset;
+    }
+
+    .img-card-tec-page {
+        max-width: 24vw;
+        min-width: 24vw;
+    }
+
+    .text-card-tec-page > p {
+        font-size: 14px;
+    }
+
+
+ 
+
+    .text-card-tec-page > h2 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,101 @@
+@media (max-width: 800px) {
+    .planets-cards-destination-box {
+        min-height: 246px;
+    }
+
+
+    .planets-cards-destination-box-card-img {
+        max-width: 100%
+    }
+
+    .cards-itens-destination {
+        gap: 15px;
+    }
+
+    
+
+    .card-text-title {
+        font-size: 12px;
+    }
+
+    .planet-card {
+        height: 65vh;
+        width: 290px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .planet-card>img {
+        width: 50px;
+    }
+
+
+    .planets-cards-destination-box-card-img-size {
+        max-width: 70%;
+    }
+
+
+    .planet-card .planet-card-text .planet-card-text-description {
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .planet-card .planet-card-text>h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .btn span {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 153px;
+        height: 40px;
+
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+
+    .planets-cards-destination-box-card-img-size {
+        max-width: 50%;
+    }
+
+    .planet-card>img {
+        width: 90px;
+        padding-top: 20px;
+    }
+
+
+    .planet-card {
+        height: 70vh;
+        width: 350px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+
+    .planet-card .planet-card-text .planet-card-text-description {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .planet-card .planet-card-text>h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .btn span {
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 153px;
+        height: 35px;
+        margin-top: 50px;
+    }
+}

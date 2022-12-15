@@ -1,0 +1,39 @@
+@media (max-width: 800px) {
+    .cards-itens {
+      flex-wrap: wrap;
+    }
+
+    .card-box {
+        width: 32%;
+    }
+
+    .card-box .card-text > h1{
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .cards .cards-itens {
+        flex-direction: column;
+    }
+
+    .card-box {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .cards .cards-itens {
+        flex-direction: column;
+    }
+
+    .card-box {
+        width: 60%;
+    }
+
+    .card-box .card-text > p {
+        font-size: 15px;
+    }
+}

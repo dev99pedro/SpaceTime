@@ -1,0 +1,64 @@
+.planet-page-page {
+    background-image: url('../../img//destination/monn_background.jpg');
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.dados-planet-page .titulo-description-planet-page {
+    text-align: left;
+    margin-left: 13vw;
+    height: 80vh;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.8px);
+    -webkit-backdrop-filter: blur(15.8px);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    width: 520px;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 100px;
+}
+
+.dados-planet-page .titulo-description-planet-page .name-planet {
+    font-size: 160px;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+}
+
+.dados-planet-page .titulo-description-planet-page .description-planet {
+    padding: 20px;
+    font-size: 22px;
+    line-height: 37px;
+    color: #ffffff
+}
+
+
+.dados-planet-page .distance-travel-planet-page {
+    margin-left: 13vw;
+    color: #ffffff;
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+
+}
+
+.distance-travel-planet-page .distance-title, .travel-title {
+    margin-bottom: 20px;
+}
+
+
+
+.distance-subtitle, .travel-subtitle {
+    font-size: 25px;
+    color: gray;
+}
+
+.distance-title {
+    padding-top: 20px;
+    color: #ffffff;
+    padding-bottom: 15px;
+    font-size: 22px;
+}

@@ -1,0 +1,46 @@
+.crew-section-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    margin-top: 70px;
+    background: #F5EEDC;
+    border-radius: 20px;
+}
+
+
+
+
+.img-person {
+    width: 80%
+}
+
+.card-text-crew-page {
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.5vw;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+}
+
+.card-text-title-crew-page + p {
+    color: #000000;
+    font-weight: 900;
+    font-size:40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-text-title-crew-page {
+    font-weight: 900;
+    color: #000000;
+}
+
+.card-text-description-crew-page {
+    line-height: 35px;
+    color: #000000;
+}
+
