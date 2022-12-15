@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from '../src/components/Home/Home'
 import Moon from './components/Destination/PagePlanets/Moon/Moon';
 import Destination from './components/Destination/Destination';
@@ -17,9 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename={window.location.pathname || ''}>
+      <Router>
         <Routes>
-          <Route exact path="/" element={<Home/>} />
           <Route path="/titan" element={<Titan />} />
           <Route path="/europa" element={<Europa />} />
           <Route path="/mars" element={<Mars />} />
@@ -29,7 +28,7 @@ function App() {
           <Route path="/crew" element={<CrewPage />} />
           <Route path="/tecnhology" element={<TecnhologyPage />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
