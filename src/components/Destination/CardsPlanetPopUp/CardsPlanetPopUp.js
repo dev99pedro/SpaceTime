@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import './CardsPlanetPopUp.css'
 
+
 import './CardsPlanetPopUp.css'
 const MoonCard = ({title, subtitle, span, img, link}) => {
     return (
