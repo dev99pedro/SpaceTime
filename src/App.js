@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL || ''}>
+      <Router >
         <Routes>
           <Route path="/titan" element={<Titan />} />
           <Route path="/europa" element={<Europa />} />
