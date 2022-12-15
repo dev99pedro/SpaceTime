@@ -18,9 +18,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter basename={window.location.pathname || ''}>
-        <Route exact path="/" component={Index} />
         <Routes>
-          <Route exact path="/" component={Index} />
+          <Route exact path="/" element={<Home/>} />
           <Route path="/titan" element={<Titan />} />
           <Route path="/europa" element={<Europa />} />
           <Route path="/mars" element={<Mars />} />
