@@ -1,7 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { HashRouter as Router } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, HashRouter } from 'react-router-dom'
 import Home from '../src/components/Home/Home'
 import Moon from './components/Destination/PagePlanets/Moon/Moon';
 import Destination from './components/Destination/Destination';
@@ -18,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename={'/react-new-features/'} >
+      <Router >
         <Routes>
           <Route path="/titan" element={<Titan />} />
           <Route path="/europa" element={<Europa />} />

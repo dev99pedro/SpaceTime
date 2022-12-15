@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SpaceTravel/static/css/main.296b9187.css",
-    "main.js": "/SpaceTravel/static/js/main.25cf316a.js",
+    "main.js": "/SpaceTravel/static/js/main.e65c3ee1.js",
     "static/js/787.0966b145.chunk.js": "/SpaceTravel/static/js/787.0966b145.chunk.js",
     "static/media/backgroundCrew.mp4": "/SpaceTravel/static/media/backgroundCrew.b688d8f30f80cd85edd0.mp4",
     "static/media/video-1.mp4": "/SpaceTravel/static/media/video-1.8884ce28564fa1e59c52.mp4",
@@ -27,11 +27,11 @@
     "index.html": "/SpaceTravel/index.html",
     "static/media/logo.svg": "/SpaceTravel/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "main.296b9187.css.map": "/SpaceTravel/static/css/main.296b9187.css.map",
-    "main.25cf316a.js.map": "/SpaceTravel/static/js/main.25cf316a.js.map",
+    "main.e65c3ee1.js.map": "/SpaceTravel/static/js/main.e65c3ee1.js.map",
     "787.0966b145.chunk.js.map": "/SpaceTravel/static/js/787.0966b145.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.296b9187.css",
-    "static/js/main.25cf316a.js"
+    "static/js/main.e65c3ee1.js"
   ]
 }
