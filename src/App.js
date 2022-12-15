@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <HashRouter>
         <Routes>
-          <Route path="/SpaceTravel" element={<Home />} />
+          <Route path="/SpaceNavigate" element={<Home />} />
           <Route path="/titan" element={<Titan />} />
           <Route path="/europa" element={<Europa />} />
           <Route path="/mars" element={<Mars />} />
