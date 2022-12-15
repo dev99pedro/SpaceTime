@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SpaceNavigate/static/css/main.22e1f832.css",
-    "main.js": "/SpaceNavigate/static/js/main.bdaf763c.js",
+    "main.js": "/SpaceNavigate/static/js/main.3f0c3943.js",
     "static/js/787.0966b145.chunk.js": "/SpaceNavigate/static/js/787.0966b145.chunk.js",
     "static/media/backgroundCrew.mp4": "/SpaceNavigate/static/media/backgroundCrew.b688d8f30f80cd85edd0.mp4",
     "static/media/video-1.mp4": "/SpaceNavigate/static/media/video-1.8884ce28564fa1e59c52.mp4",
@@ -27,11 +27,11 @@
     "index.html": "/SpaceNavigate/index.html",
     "static/media/logo.svg": "/SpaceNavigate/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "main.22e1f832.css.map": "/SpaceNavigate/static/css/main.22e1f832.css.map",
-    "main.bdaf763c.js.map": "/SpaceNavigate/static/js/main.bdaf763c.js.map",
+    "main.3f0c3943.js.map": "/SpaceNavigate/static/js/main.3f0c3943.js.map",
     "787.0966b145.chunk.js.map": "/SpaceNavigate/static/js/787.0966b145.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22e1f832.css",
-    "static/js/main.bdaf763c.js"
+    "static/js/main.3f0c3943.js"
   ]
 }

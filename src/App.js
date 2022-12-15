@@ -17,9 +17,9 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename={window.location.pathname || ''>
         <Routes>
-          <Route path="/SpaceNavigate" element={<Home />} />
+          <Route exact path="/" component={Index} />
           <Route path="/titan" element={<Titan />} />
           <Route path="/europa" element={<Europa />} />
           <Route path="/mars" element={<Mars />} />
