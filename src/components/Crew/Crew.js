@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Crew.css'
 import CrewItem from './CrewItem';
 import { Link, } from "react-router-dom";
-
+import { DataBase } from '../../Json/dataBase'
 import Slider from "react-slick";
 
 
@@ -32,7 +32,7 @@ const Crew = () => {
         ]
     };
 
-   
+
 
 
     const [data, setData] = useState([])
@@ -54,6 +54,10 @@ const Crew = () => {
 
 
 
+    const api = DataBase.map(element => element.crew)
+
+
+
     return (
         <div className='cards-crew '>
             <div className='btn-crew'>
@@ -67,12 +71,14 @@ const Crew = () => {
                 {data.map((element, index) => {
                     return (
                         <div key={index} className='teste'>
-                            <CrewItem namePerson={element.name} img={element.images.png} role={element.role} bio={element.bio} />
+
+                            <CrewItem namePerson='a' />
                         </div>
                     )
-                })}
+                    })}
+              
             </Slider>
-          
+
         </div>
 
 

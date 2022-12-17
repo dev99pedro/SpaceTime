@@ -2,87 +2,75 @@ import Header from "../../Header/Header"
 import Video from '../../videos/background-tec.mp4'
 import TecnhologyCardPage from "../TecnhologyCardPage/TecnhologyCardPage"
 import React from "react"
-import { useState, useEffect } from "react"
+import { useState} from "react"
 import './TecnhologyPage.css'
 import './TecnhologyPageMedia.css'
+import { DataBase } from '../../../Json/dataBase';
+import IMAGES from "../../ImagesExport"
 
 const TecnhologyPage = () => {
 
-    const [data, setData] = useState([])
 
 
-    useEffect(() => {
+    const api = DataBase.map(element => element.technology)
+    const [banner, setBanner] = useState(0)
 
-        async function getApi() {
-            const response = await fetch('http://localhost:3000/technology')
-            const data = await response.json()
-            setData(data)
-            console.log(data)
-        }
-        getApi()
-
-    }, [])
-
-    const [teste, setTeste] = useState(0)
-
-
-    const Launch = data.filter(element => element.name == "Launch vehicle")
-    const Port = data.filter(element => element.name == "Spaceport")
-    const Capsule = data.filter(element => element.name == "Space capsule")
-
-
-    const [a, setA] = useState()
     function handleClick(index) {
         if (index.currentTarget.id === '0') {
-            setTeste(0)
+            setBanner(0)
         }
         if (index.currentTarget.id === '1') {
-            setTeste(1)
+            setBanner(1)
         }
         if (index.currentTarget.id === '2') {
-            setTeste(2)
+            setBanner(2)
         }
 
     }
+
+
 
 
     return (
         <div className="tec-page">
             <video autoPlay loop muted src={Video} />
             <Header />
-            <div className="tec-page-cards ">
-                {teste === 0 ? Launch.map(element => {
-                    return (
-                        <div className="banner-principal">
-                            <img className="img-tec-page" src={element.images.portrait}></img>
-                            <p>{element.description}</p>
-                        </div>
-                    )
-                }) : null}
-                {teste === 1 ? Port.map(element => {
-                    return (
-                        <div className="banner-principal">
-                            <img className="img-tec-page" src={element.images.portrait}></img>
-                            <p>{element.description}</p>
-                        </div>
 
-                    )
-                }) : null}
-                {teste === 2 ? Capsule.map(element => {
+            <div className="tec-page-cards ">
+                {banner === 0 ? api.map(element => {
                     return (
                         <div className="banner-principal">
-                            <img className="img-tec-page" src={element.images.portrait}></img>
-                            <p>{element.description}</p>
+                            <img className="img-tec-page" src={element[0].images.portrait}></img>
+                            <p>{element[0].description}</p>
+                        </div>
+                    )
+                }) : null}
+
+
+                {banner === 1 ? api.map(element => {
+                    return (
+                        <div className="banner-principal">
+                            <img className="img-tec-page" src={element[1].images.portrait}></img>
+                            <p>{element[1].description}</p>
+                        </div>
+                    )
+                }) : null}
+
+
+                {banner === 2 ? api.map(element => {
+                    return (
+                        <div className="banner-principal">
+                            <img className="img-tec-page" src={element[2].images.portrait}></img>
+                            <p>{element[2].description}</p>
                         </div>
                     )
                 }) : null}
             </div>
+
             <div className="tec-page-cards">
-                {data.map((element, index) => {
-                    return (
-                        <TecnhologyCardPage key={index} id={index} handleClick={handleClick} title={element.name} img={element.images.portrait} />
-                    )
-                })}
+                <TecnhologyCardPage id='0' handleClick={handleClick} title='Launch vehicle' img={IMAGES.Launch} />
+                <TecnhologyCardPage id='1' handleClick={handleClick} title='Spaceport' img={IMAGES.SpacePort2} />
+                <TecnhologyCardPage id='2' handleClick={handleClick} title='Space capsule' img={IMAGES.Capsule} />
             </div>
         </div>
     )

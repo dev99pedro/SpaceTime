@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+
 import Header from '../../../Header/Header'
 import BackgroundImage from '../../../img/destination/mars_background.jpg'
 
@@ -6,43 +6,29 @@ import BackgroundImage from '../../../img/destination/mars_background.jpg'
 
 
 
-const Mars= () => {
+const Mars = () => {
 
-    const [showApi, setShowApi] = useState([])
 
-    useEffect(() => {
-        async function getApi() {
-            const response = await fetch('http://localhost:3000/destinations')
-            const data = await response.json()
-            setShowApi(data)
-
-        }
-        getApi()
-    }, [])
 
     return (
-        <div className="planet-page-page" style={{backgroundImage: `url(${BackgroundImage})`}}>
+        <div className="planet-page-page" style={{ backgroundImage: `url(${BackgroundImage})` }}>
             <Header />
             <div className='description'>
-                {showApi.filter(element => element.name === 'Mars').map((element, index) => {
-                    return (
-                        <div className='dados-planet-page' key={index}>
-                            <div className='titulo-description-planet-page'>
-                                <h1 className='name-planet'>{element.name}</h1>
-                                <p className='description-planet'>{element.description}</p>
-                         
-                                <div className='distance'>
-                                    <h3 className='distance-title'>DISTANCE</h3>
-                                    <p className='distance-subtitle'>{element.distance}</p>
-                                </div>
-                                <div className='travel'>
-                                    <p className='travel-subtitle'>{element.travel}</p>
-                                </div>
+                <div className='dados-planet-page'>
+                    <div className='titulo-description-planet-page'>
+                        <h1 className='name-planet'>Mars</h1>
+                        <p className='description-planet'>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
 
-                            </div>
+                        <div className='distance'>
+                            <h3 className='distance-title'>DISTANCE</h3>
+                            <p className='distance-subtitle'>225 mil. km</p>
                         </div>
-                    )
-                })}
+                        <div className='travel'>
+                            <p className='travel-subtitle'>9 months</p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     )

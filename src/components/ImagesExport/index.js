@@ -10,6 +10,9 @@ const IMAGES = {
     Launch: require('../img/tecnhology/launch.jpg'),
     Capsule: require('../img/tecnhology/capsule.jpg'),
     SpacePort: require('../img/tecnhology/spaceport.jpg'),
+    SpacePort2: require('../img/tecnhology/spaceport-2.jpg'),
+
+
     //ICONS
     Insta: require('../img/icons/face.png'),
     Face: require('../img/icons/instagram.png'),
