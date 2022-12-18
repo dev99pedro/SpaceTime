@@ -31,7 +31,7 @@
   background-position: center;
   width: 90%;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 40vh;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -43,12 +43,13 @@
   display: flex;
   justify-content: center;
   color: #ffffff;
+
 }
 
 .title-tec h2 {
   font-size: 30px;
   font-family: 'Nanum Myeongjo', serif;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
 }
 

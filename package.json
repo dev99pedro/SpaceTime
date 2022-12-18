@@ -1,5 +1,6 @@
 {
   "name": "projeto-pagina",
+  "homepage": "https://dev99pedro.github.io/SpaceTime",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

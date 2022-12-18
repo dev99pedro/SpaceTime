@@ -1,6 +1,6 @@
 .tec {
     padding-bottom: 100px;
-    background-color: #0d1325;
+    background-color: beige
 }
 
 .tec .cards-tec {
@@ -11,7 +11,7 @@
 
 .tec-main-title {
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 50px;
     padding-top: 100px;
