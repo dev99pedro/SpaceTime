@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, HashRouter } from 'react-router-dom'
 import Home from '../src/components/Home/Home'
 import Moon from './components/Destination/PagePlanets/Moon/Moon';
 import Destination from './components/Destination/Destination';
@@ -17,8 +17,9 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/titan" element={<Titan />} />
           <Route path="/europa" element={<Europa />} />
           <Route path="/mars" element={<Mars />} />
@@ -28,7 +29,7 @@ function App() {
           <Route path="/crew" element={<CrewPage />} />
           <Route path="/tecnhology" element={<TecnhologyPage />} />
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
