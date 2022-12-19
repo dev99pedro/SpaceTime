@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 
 
+
 const TechnologyItems = ({ title, urlImage, marginTop }) => {
 
     return (

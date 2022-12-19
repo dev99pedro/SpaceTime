@@ -21,6 +21,8 @@
     .tec {
         padding-bottom: 38px;
     }
+
+  
 }
 
 @media (max-width: 900px) {
@@ -29,6 +31,10 @@
     }
 
 
+   
+    .banner-principal {
+        width: 50% !important;
+    }
    
 
     .tec {
